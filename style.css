@@ -1,0 +1,421 @@
+@charset "UTF-8";
+/*============================================= RESET PARA AS SEGUINTES FUNÇOES ===========================*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-image: url(assets/teia-de-aranha-\ Z.jpg);
+   /* background-repeat: ;
+    background-position: ;*/
+   /*background-size: contain;revisar mais tarde*/
+
+    background-size: cover;
+    background-position: center center;
+   
+    align-items: center;
+    font-family: Georgia,Arial,Helvetica,sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0%;
+}
+
+h1,h2,h3{
+    text-align: center;
+    font-family: Georgia,Arial,Helvetica,sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    color: rgb(150, 143, 143);
+}
+
+h1:hover{
+    color: rgb(106, 106, 11);
+}
+
+p{  
+    /*text-indent: 4%; verificar*/
+    color: rgb(248, 248, 248);
+    /*font-size: max(15px, 1vw);*/
+    font-size: 90;
+    line-height: 1.3 vw;
+    margin: 0.8vw;
+    text-shadow:  red 2px 2px 8px , blue 2px 2px 5px /*verificar*/
+}
+
+#video{
+    box-shadow: 1.5px 1.5px 10px rgba(255, 0, 0, 0.877);
+    padding: 4px;
+    display: block;
+    width: 55vw;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 9px;
+}
+
+/*============================================= CABEÇALHO ===========================*/
+header{
+    margin-left: 2vw;
+    align-items: center;
+    margin-bottom: 15px;
+    display: inline;
+}
+
+header >  nav > a{
+    font-size: max(11px, 2vw);
+    text-decoration: none;
+    background-color: #753;
+    padding: 10px;
+    color: #b94;
+    background: url(zs_nav.jpg ) no-repeat 1vw;
+}
+
+header > nav > a:hover{
+    color:rgba(169, 145, 11, 0.576);
+}
+
+nav.sociais{
+    padding-left: 700px;
+ }
+
+img{
+    width:45vw;
+    max-width: 650px;
+    margin: auto;
+    display: flex;   /*verificar*/
+}
+
+.arac{
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+/*============================================= PAINÉL ===========================*/
+  
+
+aside{
+    margin: 3vw;
+    max-width: max(250px 4vw);
+}
+
+.painel{
+    border: 1px outset #272727;/*verificar a cor*/
+    border-color: rgba(255, 0, 0, 0.611);
+    box-shadow: 0px 0px 10px rgba(197, 57, 57, 0.768);/*verificar*/
+    background-color: black;/*verificar a cor*/
+    margin: 0.5vw; 
+    padding: 0px 10px;
+    color: #c4b48a;
+}
+.painel > p{
+    color:rgb(197, 191, 191);
+    font-size: max(7px, 1.5vw);
+}
+
+.painel > a{
+    color: #b94;
+    text-decoration: none;
+    font-size: max(10px, 1.5vw);
+}
+
+.painel > a:hover{
+    color:rgba(169, 145, 11, 0.576);
+}
+
+/*============================================= GALERIA ===========================*/
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0.2vw;
+}
+
+.gallery-items:hover{
+    transform: scale(1.2);
+    filter: none; 
+}
+
+.gallery-items{
+    width: 340px;
+    height: 250px;
+    border: 10px solid rgb(169, 145, 11);
+    box-shadow: 5px 5px 5px black;
+    flex-grow: 1;
+    filter: grayscale(100%);
+    transition: transform 0.3s linear;
+} 
+
+.gallery-items > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*============================================= PROMOÇÕES ===========================*/
+#container-principal{
+    display: grid;        /*GRID = grade*/
+    gap: 8px;              /*GAP = espaçamero*/
+    grid-template-columns: 1fr 1fr;
+    
+    border: 2px solid rgb(0, 183, 255);
+    background-color: rgb(3, 173, 173);
+    margin: 4px; 
+
+    width: 100%;
+    max-width: 100%;
+   
+}
+
+#container3{
+    background-image: url('https://nrstudios.co.uk/wp-content/uploads/Cristian-5.jpg');
+
+    background-size: cover; /* Ajusta a imagem para cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+
+    border: 5px solid rgb(204, 186, 22);
+    width: 100%;
+    max-width: 100%;
+    
+    display: inline-block;
+    /*display: grid;*/
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+#containerX > img{
+    border: 6px solid rgb(140, 17, 211); 
+    margin: 4px;
+    width: 100%;
+    max-width: 100%;
+ }
+
+.box{
+    display: grid;
+    background-color: greenyellow;
+    border: 2px solid rgb(255, 208, 0);
+   
+    width: 100%;
+    max-width: 100%;
+}
+
+#container2{ 
+    display: grid;
+    border: 4px solid green;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    width: 100%;
+    max-width: 100%;
+}
+#container2 > div {
+    display: grid;
+    border: 3px solid rgb(213, 47, 255);  
+    margin: 3px;
+    
+    width: 100%;
+    max-width: 100%;
+}
+#container2 > div > img{
+    border: 3px solid rgb(17, 1, 1);
+    margin: 2px;
+    cursor: pointer;
+
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+/*REVISAR DEPOIS*/
+#container2 > div > a > img{
+    
+    border: 3px solid rgb(17, 1, 1);
+    margin: 2px; 
+    
+}
+
+#divInvisivel{
+    display: none;
+    border: 5px solid red;
+    width: auto;
+}
+
+#divInvisivel > img{
+    width: 50%;
+    max-width: 100%;
+}
+
+
+.divToMirror > img{
+    transition: transform 0.3s ease; /* Tempo e suavidade da transição */
+}
+
+.divToMirror > img:hover {
+    transform: scale(1.2); /* Faz o zoom na imagem, aumentando 10% */
+}
+
+/*============================================= MODELO ===========================*/
+.model{
+    flex-direction:column;
+}
+.model  > img{   
+    margin: 15px 10px;
+}
+
+.model p:first-letter{
+    color: rgb(97, 8, 8);
+    font-size:  max(40px, 3.5vw);
+}
+
+/*============================================= ARTIGO ===========================*/
+article{
+   background: black;
+   box-shadow: 0px 0px 20px rgba(197, 57, 57, 0.768);
+   border-radius: 10px;
+   display: inline;
+   width: 70%;
+   margin: 0%;
+}
+
+article >img{
+    border-radius: 10px;
+    margin: 1em;
+    float:left;      /*verificar*/
+    box-shadow: red -2px -2px 10px ,  2px 2px 10px blue;
+    
+}
+article >img:hover{
+    opacity: .5;
+}
+
+
+/*============================================= CADASTRO ===========================*/
+.cadastro{
+    background-color: rgb(196, 183, 183);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #371954;               
+    border-radius: 5px;
+    width:95vw;
+    max-width: 600px;
+    padding: 30px;
+    box-shadow: 3px 3px 3px red;
+}
+#titulo{
+    font-size: 2em;
+    font-family: sans-serif;
+    color: #380b61;
+    display: inline-block;
+}
+#subtitulo{
+    font-family: sans-serif;
+    color: #723da3;
+    margin-left: 10%;
+}
+fieldset{
+    border: 0;
+}
+input, select, textarea, button{
+    border-radius: 5px;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: #7512d1;
+    display: block;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid red;
+    box-shadow: 2px 2px 2px blue;
+    display: block;
+} 
+.campo select option{
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: pink;
+}
+.botao{
+    cursor: pointer;
+    font-size: 1.1em;
+    background: purple;
+    border: 0;
+    color: red;
+    padding: 0.2em 0.6em;
+    box-shadow:2px 2px 2px rgb(255, 0, 0);
+    text-shadow: 3px 3px 3px blue;
+    transform: translate(350%, 20%);
+}
+.botao:hover{
+    background: springgreen;
+    box-shadow: inset 2px 2px 2px rgb(89, 17, 17);
+    text-shadow: none;
+}
+#check{
+    display: inline-block;
+}
+
+
+
+
+/*============================================= RODAPÉ ===========================*/
+footer{
+    width: 95%;
+    margin: auto;
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgba(197, 57, 57, 0.768);
+    padding: 10px;
+    display: flex;/*verificar*/
+    align-items: flex-end; 
+    justify-content: space-around; /*verificar*/
+    color: blanchedalmond;
+    font-style: italic;
+}
+
+footer > div > p{
+    color: rgb(181, 173, 173);
+    display: inline;
+    font-size: max(12px, 0.8vw);
+}
+footer > nav > a{
+    font-size: max(15px, 2vw);
+    color: #b94;
+    text-decoration: none;/*revisar*/
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+/*footer > nav > a:hover{
+
+}*/
+
+@media only screen and (max-width: 900px) {   
+   main{
+    flex-direction: column;
+   }
+
+
+@font-face {
+    font-family: Chernobyl;
+    src: url(fonts/Chernobyl.otf);
+}  
+
+h2{
+    font-family: "Chernobyl";
+    font-size: 3em;
+  }
+}
+ 
