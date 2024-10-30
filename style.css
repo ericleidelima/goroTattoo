@@ -145,6 +145,7 @@ aside{
     justify-content: space-evenly;
     gap: 2vw;
     padding: 0.2vw;
+    margin: 3%;
 }
 
 .gallery-items:hover{
