@@ -261,7 +261,10 @@ aside{
 }
 .model p{
     color: rgb(255, 255, 255);
-    font-size: 17px;
+    font-size: 17px;   
+}
+.model a{
+    text-decoration: none;
 }
 
 /*============================================= ARTIGO ===========================*/
