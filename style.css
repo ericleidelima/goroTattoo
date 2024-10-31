@@ -8,13 +8,11 @@
 body{
     background-color: black;
     background-image: url(assets/imagens/icons/teia-de-aranha-\ Z.jpg);
-   /* background-repeat: ;
-    background-position: ;*/
+    background-repeat: no-repeat;
+   /* background-position: ;*/
    /*background-size: contain;revisar mais tarde*/
-
     background-size: cover;
     background-position: center center;
-   
     align-items: center;
     font-family: Georgia,Arial,Helvetica,sans-serif;
 }
