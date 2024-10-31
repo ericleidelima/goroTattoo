@@ -246,45 +246,43 @@ aside{
 
 
 /*============================================= MODELO ===========================*/
-.model{
-    flex-direction:column;
-}
-.model  > img{   
-    margin: 15px 10px;
-}
 
-.model p:first-letter{
-    color: rgb(97, 8, 8);
-    font-size:  max(20px, 2vw);
-}
-.model p{
-    color: rgb(255, 255, 255);
-    font-size: max(16px, 1.5vw);   
-    
-}
-.model a{
-    text-decoration: none;
-}
 
-/*============================================= ARTIGO ===========================*/
+
+
+
+/*============================================= ARTIGO & MODELO===========================*/
 article{
+    flex-direction:column;
    background: black;
    box-shadow: 0px 0px 20px rgba(132, 197, 57, 0.486);
    border-radius: 10px;
    display: inline;
-   width: 80%;
+   width: 90%;
    margin: 0%;
 }
 
 article >img{
+    margin: 15px 10px;
     border-radius: 10px;
     margin: 1em;
     float:left;      /*verificar*/
-    box-shadow: 0px 0px 10px rgba(132, 197, 57, 0.486);
+    box-shadow: 0px 0px 20px rgba(196, 65, 5, 0.651);
 }
 article >img:hover{
     opacity: .7;
 }
+article > p {
+    color: rgb(255, 255, 255);
+    font-size: max(16px, 1.5vw);
+}
+
+article >  p:first-letter{
+    color: rgb(97, 8, 8);
+    font-size:  max(20px, 2vw);
+}
+
+
 
 
 
