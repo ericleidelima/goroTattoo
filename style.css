@@ -255,11 +255,12 @@ aside{
 
 .model p:first-letter{
     color: rgb(97, 8, 8);
-    font-size:  max(15px, 3.5vw);
+    font-size:  max(20px, 2vw);
 }
 .model p{
     color: rgb(255, 255, 255);
-    font-size: 17px;   
+    font-size: max(16px, 1.5vw);   
+    
 }
 .model a{
     text-decoration: none;
@@ -271,7 +272,7 @@ article{
    box-shadow: 0px 0px 20px rgba(132, 197, 57, 0.486);
    border-radius: 10px;
    display: inline;
-   width: 70%;
+   width: 80%;
    margin: 0%;
 }
 
@@ -280,11 +281,11 @@ article >img{
     margin: 1em;
     float:left;      /*verificar*/
     box-shadow: 0px 0px 10px rgba(132, 197, 57, 0.486);
-    
 }
 article >img:hover{
-    opacity: .5;
+    opacity: .7;
 }
+
 
 
 /*============================================= RODAPÉ ===========================*/
