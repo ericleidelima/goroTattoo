@@ -7,7 +7,7 @@
 
 body{
     background-color: black;
-    background-image: url(assets/teia-de-aranha.jpg);
+    background-image: url(assets/imagens/icons/teia-de-aranha-\ Z.jpg);
    /* background-repeat: ;
     background-position: ;*/
    /*background-size: contain;revisar mais tarde*/
@@ -53,7 +53,7 @@ p{
 }
 
 #video{
-    box-shadow: 1.5px 1.5px 10px rgba(255, 0, 0, 0.877);
+    box-shadow: 1.5px 1.5px 10px #b94;
     padding: 4px;
     display: block;
     width: 55vw;
@@ -309,6 +309,7 @@ footer > div > p{
     font-size: max(12px, 0.8vw);
 }
 footer > nav > a{
+    
     font-size: max(15px, 2vw);
     color: #b94;
     text-decoration: none;/*revisar*/
