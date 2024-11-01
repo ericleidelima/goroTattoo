@@ -204,7 +204,11 @@ aside{
     grid-template-columns: 1fr 1fr;
     background-color: rgb(0, 0, 0);
     margin: 4px; 
-   
+}
+@media(max-width: 500px){
+    #container-principal{
+        display: block;
+    }
 }
 
 #container2{ 
