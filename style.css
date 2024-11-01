@@ -293,10 +293,25 @@ aside{
 }
 #divInvisivel > p{
    color: white;
-}#divInvisivel > a,img{
+}
+
+
+.divInvisivel  > a img{
+    width: 20vw;
+}
+@media(max-width: 500px){
+    .divInvisivel  > a img{
+        width: 60vw;
+}
+
+.divInvisivel > img{
     width: 20vw;
     box-shadow: 0px 0px 20px rgb(132, 197, 57);
- }
+}
+@media(max-width: 500px){
+    .divInvisivel  img{
+        width: 60vw;
+}
 
 
 /*================================== MODELO & CURIOSIDADES & ESTILOS DE TATTOO=====================*/
