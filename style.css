@@ -233,6 +233,8 @@ aside{
     max-width: 100%;
     border-radius: 2vw;
     padding: 2px 8px 2px 8px;
+    box-shadow: 0.1px 0.11px  15px rgba(168, 8, 8, 0.884);
+   
 }
 .divToMirror > img:hover {
     transform: scale(1.2); /* Faz o zoom na imagem, aumentando 10% */
@@ -244,7 +246,7 @@ aside{
     background-size: cover; /* Ajusta a imagem para cobrir toda a div */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
-    box-shadow: 1.5px 1.5px 10px rgb(170, 145, 5);
+    box-shadow: 0.1px 0.1px 15px rgb(170, 145, 5);
     width: 100%;
     max-width: 100%;
     display: inline-block;
