@@ -199,6 +199,7 @@ aside{
 
 /*============================================= ESPELHO ===========================*/
 #container-principal{
+    width: 98%;
     display: grid;        /*GRID = grade*/
     gap: 8px;              /*GAP = espaçamero*/
     grid-template-columns: 1fr 1fr;
@@ -209,16 +210,18 @@ aside{
     #container-principal{
         display: block;
     }
+    #container2{
+     margin-left: 3.5vw;
+    }
 }
 
-#container2{ 
+#container2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-    max-width: 100%;
+    width: 94%;
     min-width: 400px;
-
 }
+
 #container2 > div {
     box-shadow: 1.5px 1.5px 10px rgb(170, 145, 5);
     display: grid;  
@@ -238,7 +241,6 @@ aside{
     border-radius: 2vw;
     padding: 2px 8px 2px 8px;
     box-shadow: 0.1px 0.11px  15px rgba(168, 8, 8, 0.884);
-   
 }
 .divToMirror > img:hover {
     transform: scale(1.2); /* Faz o zoom na imagem, aumentando 10% */
@@ -251,20 +253,24 @@ aside{
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
     box-shadow: 0.1px 0.1px 15px rgb(170, 145, 5);
-    width: 100%;
+    width: 950%;
     max-width: 100%;
     display: inline-block;
     /*display: grid;*/
     grid-template-columns: 1fr;
-    align-items: center;
-    margin: 12px;
+   
 }
 
+
 #containerX > img{
-    border: 6px solid rgb(160, 138, 173); 
-    margin: 4px;
-    width: 100%;
+    border: 6px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px rgba(231, 74, 1, 0.822); 
+    width: 95%;
     max-width: 100%;
+ }
+ #containerX > p {
+     color: white;
+     padding-left: 15vw;
  }
 
 /*=================================================DIV OCULTA================================*/
@@ -274,6 +280,16 @@ aside{
 
 #oculta a > img{
     width: 20%;
+}
+#oculta > p{
+   color: white;
+}
+#divInvisivel{
+    display: none;
+    padding: 15px;
+}
+#divInvisivel > p{
+   color: white;
 }
 
 
