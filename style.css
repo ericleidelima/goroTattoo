@@ -226,14 +226,14 @@ aside{
     background-color: rgb(31, 26, 14);
     box-shadow: 1.5px 1.5px 10px rgb(170, 145, 5);
     display: grid;  
-    margin: 7px;
+    margin: 4px;
     padding: 0.5vw;
 }
 
 #container2 > div > p{
    color: white;
    padding: 2px 8px 2px 8px;
-   font-size: max(9px, 1.5vw);
+   font-size: max(9px, 1.2vw);
 }
 
 
@@ -338,14 +338,18 @@ article >img:hover{
 }
 article > p {
    margin: 1.5em;
-    color: rgb(255, 255, 255);
-    font-size: max(16px, 1.5vw);
+   color: rgb(255, 255, 255);
+   font-size: max(16px, 1.5vw);
 }
 
 article >  p:first-letter{
     color: rgb(97, 8, 8);
     font-size:  max(20px, 2vw);
 }
+article {
+
+}
+
 
 @media only screen and (max-width: 900px) {   
    main{
