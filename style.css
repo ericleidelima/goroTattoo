@@ -223,9 +223,11 @@ aside{
 }
 
 #container2 > div {
+    background-color: rgb(31, 26, 14);
     box-shadow: 1.5px 1.5px 10px rgb(170, 145, 5);
     display: grid;  
     margin: 7px;
+    padding: 0.5vw;
 }
 
 #container2 > div > p{
@@ -233,6 +235,7 @@ aside{
    padding: 2px 8px 2px 8px;
    font-size: max(9px, 1.5vw);
 }
+
 
 .divToMirror > img{
     transition: transform 0.3s ease; /* Tempo e suavidade da transição */
@@ -253,15 +256,9 @@ aside{
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
     box-shadow: 0.1px 0.1px 15px rgb(170, 145, 5);
-    width: 950%;
     max-width: 100%;
     display: inline-block;
-    
-   
-   
-}
-#containerX{
-   text-align: center;
+    text-align: center;
 }
 
 #containerX > img{
