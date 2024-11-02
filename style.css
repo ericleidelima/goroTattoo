@@ -268,11 +268,9 @@ aside{
     box-shadow: 0px 0px 20px rgba(231, 74, 1, 0.822); 
     width: 95%;
     max-width: 100%;
-   
  }
- #containerX > p {
-     color: white;
-     padding-left: 15vw;
+ #containerX  p {
+    color: white;
  }
 
 /*=================================================DIV OCULTA================================*/
@@ -345,9 +343,6 @@ article > p {
 article >  p:first-letter{
     color: rgb(97, 8, 8);
     font-size:  max(20px, 2vw);
-}
-article {
-
 }
 
 
