@@ -27,3 +27,21 @@ function esconderImagem2() {
             var imagem2 = document.getElementById("divInvisivel");
             imagem2.style.display = "none"; // Esconde a imagem2
         };
+
+
+function espelharPrimeiroFilho() {
+            const div =  document.getElementById("containerX");
+            const primeiroFilho = div.querySelector("img");
+
+            const imagem = primeiroFilho;
+            
+            if (imagem.style.transform === 'scaleX(-1)') {
+                imagem.style.transform = 'scaleX(1)'; 
+            } else {
+            imagem.style.transform = 'scaleX(-1)'; 
+            }
+}
+
+
+
+
