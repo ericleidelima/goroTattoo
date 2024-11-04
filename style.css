@@ -62,6 +62,9 @@ h1:hover{
     display: inline-block;
     width: 3.3vw;
 }
+.logos a{
+    text-decoration: none;
+}
 header{
     align-items: center;
     margin-bottom: 15px;
