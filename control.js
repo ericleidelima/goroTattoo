@@ -43,5 +43,7 @@ function espelharPrimeiroFilho() {
 }
 
 
-
+function rolarParaDiv() {
+    document.getElementById("containerX").scrollIntoView({ behavior: "smooth" });
+}
 
