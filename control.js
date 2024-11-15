@@ -48,5 +48,18 @@ function rolarParaDiv() {
 }
 
 
-//==============================TEXTE==================
+//==============================TEXTE RELÂMPAGO=====================
+// Array com URLs das imagens
+const images = [
+    'assets/imagens/img/1.png',
+    'assets/imagens/img/2.png',
+    'assets/imagens/img/3.png'
+  ];
 
+  let currentIndex = 0;
+
+  // Função para ir para a próxima imagem
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length; // Alterna para a próxima imagem
+    document.getElementById('carousel-image').src = images[currentIndex];
+  }
